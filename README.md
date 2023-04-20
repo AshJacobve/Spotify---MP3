@@ -1,34 +1,36 @@
-# Spotify Playlist to YouTube Downloader
-This is a Python script that allows you to download audio from the tracks in a Spotify playlist and save them as MP3 files using YouTube as the audio source.
+# __Spotify Playlist to YouTube Downloader__
 
-Prerequisites
-Before running the script, make sure you have the following libraries installed:
+#### This is a Python script that allows you to *__download audio__* from the tracks in a Spotify playlist and save them as *__MP3 files__* using YouTube as the audio source.
 
-requests: for making HTTP requests
-base64: for encoding and decoding base64 data
-googleapiclient: for interacting with the YouTube API
-pytube: for downloading YouTube videos
+## __Prerequisites__
+
+#### Before running the script, make sure you have the following libraries installed:
+
+\- *__requests__*: for making __HTTP requests__   
+\- *__base64__*: for __encoding and decoding base64 data__    
+\- *__googleapiclient__*: for interacting with the __YouTube API__    
+\- *__pytube__*: for __downloading__ YouTube videos    
 
 
-You can install these libraries using pip or conda by running the following commands:
+#### You can install these libraries using __'pip'__ or __'conda'__ by running the following commands:
 
+*pip install requests base64 google-api-python-client pytube*
 
-pip install requests base64 google-api-python-client pytube
+## __Getting Started__
 
-Getting Started
-Clone the repository or download the script file to your local machine.
+#### 1) Clone the repository or download the script file to your local machine.
 
-Replace the values of CLIENT_ID and CLIENT_SECRET with your own Spotify API credentials. You can obtain these credentials by creating a Spotify Developer account and registering a new application.
+#### 2) Replace the values of __'CLIENT_ID'__ and __'CLIENT_SECRET'__ with your own Spotify API credentials. You can obtain these credentials by creating a Spotify Developer account and registering a new application.
 
-Replace the value of playlist_id with the ID of the Spotify playlist that you want to download from.
+#### 3) Replace the value of __'playlist_id'__ with the ID of the Spotify playlist that you want to download from.
 
-Replace the value of ytkey with your own YouTube API key. You can obtain a YouTube API key by creating a project in the Google Developers Console and enabling the YouTube Data API.
+#### 4) Replace the value of __'ytkey'__ with your own YouTube API key. You can obtain a YouTube API key by creating a project in the Google Developers Console and enabling the YouTube Data API.
 
-Run the script using a Python interpreter.
+#### 5) Run the script using a Python interpreter.
 
-The script will retrieve the tracks from the Spotify playlist and search for the corresponding audio on YouTube. It will download the audio as MP3 files and save them to the destination folder specified in the destination variable.
+#### 6) The script will retrieve the tracks from the Spotify playlist and search for the corresponding audio on YouTube. It will download the audio as MP3 files and save them to the destination folder specified in the __destination__ variable.
 
-After the download is complete, you will see a success message with the title of the downloaded track.
+#### 7) After the download is complete, you will see a success message with the title of the downloaded track.
 
 Note: Please be aware of the terms of use of the Spotify and YouTube APIs, as well as the terms of use of the downloaded audio files. Make sure to comply with all applicable laws and regulations related to copyright and intellectual property rights.
 
