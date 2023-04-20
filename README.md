@@ -34,6 +34,13 @@
 
 Note: Please be aware of the terms of use of the Spotify and YouTube APIs, as well as the terms of use of the downloaded audio files. Make sure to comply with all applicable laws and regulations related to copyright and intellectual property rights.
 
+## __Drawbacks to the program__
+
+The program relies on the use of YouTube's API, which restricts the number of requests sent in per day. Therefore, the program won't run too many times per day
+
+This problem can be dodged if we use another API to access YouTube, however, it is __illegal__ and highly advised against.
+
+
 
 
 
